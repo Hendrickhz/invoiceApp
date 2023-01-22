@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@100;300;400;500;600;700&display=swap");
+
+$font-family-sans-serif: "Sofia Sans Semi Condensed", sans-serif;
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+tr .del-btn {
+  display: none;
+}
+tr:hover .del-btn {
+  display: inline;
+  cursor: pointer;
+}
